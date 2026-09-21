@@ -1,0 +1,34 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Dependencies and generated web builds
+node_modules/
+.next/
+dist/
+.vinext/
+.wrangler/
+.sites-runtime/
+*.tsbuildinfo
+*.log
+
+# Local environment values and credentials
+.env
+.env.*
+!.env.example
+wp-config.php
+*.pem
+*.key
+
+# Database and private backup files
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*~
